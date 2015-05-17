@@ -72,6 +72,10 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+easy_admin:
+    entities:
+        - MediaBundle\Entity\Media
+
 fos_rest:
     routing_loader:
         default_format: json
