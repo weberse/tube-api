@@ -1,0 +1,3 @@
+tube:
+    resource: "@TubeBundle/Resources/config/routing.yml"
+    prefix:   /
