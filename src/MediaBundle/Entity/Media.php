@@ -12,6 +12,8 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Media
 {
+    const MEDIA_TYPE_AUDIO = 'audio';
+
     /**
      * @var integer
      *
@@ -34,6 +36,13 @@ class Media
      * @ORM\Column(name="source", type="string", length=64)
      */
     private $source;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="source_id", type="string", length=64)
+     */
+    private $sourceId;
 
     /**
      * @var string
@@ -104,6 +113,22 @@ class Media
     public function getSource()
     {
         return $this->source;
+    }
+
+    /**
+     * @return string
+     */
+    public function getSourceId()
+    {
+        return $this->sourceId;
+    }
+
+    /**
+     * @param string $sourceId
+     */
+    public function setSourceId($sourceId)
+    {
+        $this->sourceId = $sourceId;
     }
 
     /**

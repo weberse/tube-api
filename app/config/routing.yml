@@ -1,7 +1,3 @@
 media:
     resource: "@MediaBundle/Resources/config/routing.yml"
     prefix:   /
-
-tube:
-    resource: "@TubeBundle/Resources/config/routing.yml"
-    prefix:   /
