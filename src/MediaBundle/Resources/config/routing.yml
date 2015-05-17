@@ -1,0 +1,3 @@
+media_get_audio_playlist:
+    path: /audio/all.{_format}
+    defaults: {_controller: MediaBundle:Rest:getAudioPlaylist, _format: json}

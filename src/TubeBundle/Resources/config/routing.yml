@@ -1,3 +1,0 @@
-tube_homepage:
-    path:     /api
-    defaults: { _controller: TubeBundle:Default:index }

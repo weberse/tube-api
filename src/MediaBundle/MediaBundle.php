@@ -1,9 +1,9 @@
 <?php
 
-namespace TubeBundle;
+namespace MediaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class TubeBundle extends Bundle
+class MediaBundle extends Bundle
 {
 }
