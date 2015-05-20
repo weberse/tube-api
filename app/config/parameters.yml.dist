@@ -3,7 +3,7 @@ parameters:
     database_driver:   pdo_mysql
     database_host:     us-cdbr-iron-east-02.cleardb.net
     database_port:     3306
-    database_name:     media
+    database_name:     heroku_7b4bb9cf7fe02e8
     database_user:     b70cb991133986
     database_password: c013f3ad
     # You should uncomment this if you want use pdo_sqlite
